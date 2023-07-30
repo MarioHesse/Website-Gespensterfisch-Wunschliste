@@ -6,13 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gespensterfisch Wünsche</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="resources/gf-dark.svg" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
 
 
-  <body class="bg-primary">
-<main>
+  <body id="page-top">
 <div class="container bg-dark">
   <header class="bd-header bg-dark py-4 d-flex align-items-stretch border-bottom border-dark">
     <div class="container-fluid d-flex align-items-center">
@@ -24,36 +32,134 @@
   </header>
 </div>
 
-
-
-
-<div class="container text-center bg-light">
-  <div class="row py-4">
-    <div class="col">
-      <p>
-        Auf dieser Seite findest du Links zu Listen mit Dingen, die wir uns wünschen. Wähle im Menü einen Person aus, die du beglücken möchtest, trag deinen Namen und deine E-Mail-Adresse ein und suche etwas aus. Falls du deine Wahl später ändern möchtest kannst du das problemfrei tun. Dazu wird dir eine E-Mail mit einem Änderungslink geschickt.
-      </p>
-      <p>
-        Vielen Dank, dass du uns eine Freude machen möchtest! In der Regel freuen wir uns besonders über selbstgemachte oder gebrauchte Sachen. Für den Fall, dass du einmal nichts in unseren Wunschlisten findest, freuen wir uns auch über <a href="https://www.zeit-statt-zeug.de/de/">geschenkte Zeit</a> oder ein bisschen Geld für den nächsten Urlaub.
-      </p>
-    </div>
-  </div>
-</div>
-
-<nav class="container navbar navbar-expand-lg navbar-light bg-dark text-light">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse justify-content-end">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a href="https://cloud.gespensterfisch.de/apps/polls/s/vs7dTTEe" class="nav-link text-light">Arwyn</a></li>
-        <li class="nav-item"><a href="https://cloud.gespensterfisch.de/apps/polls/s/KI1dQwI8" class="nav-link text-light">Tiam</a></li>
-        <li class="nav-item"><a href="https://cloud.gespensterfisch.de/apps/polls/s/Y53JMQVt" class="nav-link text-light">Katha</a></li>
-        <li class="nav-item"><a href="https://cloud.gespensterfisch.de/apps/polls/s/ZFSQZj7Z" class="nav-link text-light">Mario</a></li>
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+  <div class="container">
+    <img src="resources/gf-light.svg" height="50" width="70" class="me-3" alt="Gespensterfisch"/>
+    <a class="navbar-brand" href="#page-top">Gespensterfisch Wunschlisten</a>
+    <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
       </ul>
     </div>
   </div>
 </nav>
 
-</main>
+<!-- Masthead-->
+<header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image-->
+        <img class="masthead-avatar mb-5" src="resources/gf-dark.svg" alt="..." />
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading mb-0">Wunschlisten</h1>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mb-0">- Was wir wirklich gebrauchen können -</p>
+    </div>
+</header>
+
+<!-- Things Section-->
+<section class="page-section text-secondary mb-0" id="about">
+    <div class="container">
+        <!-- Things Section Heading-->
+        <h2 class="page-section-heading text-center text-secondary">Dinge</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-dark">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Things Section Content-->
+        <div class="row">
+          <div class="col-lg ms-auto">
+            <p class="lead">
+              Auf den nachfolgend verlinkten Seiten findest du Listen mit Dingen, die wir uns wünschen. Wähle über die folgenden Buttons einen Person aus, die du beglücken möchtest, trag deinen Namen und deine E-Mail-Adresse ein und suche etwas aus. Sobald du etwas ausgewählt hast, wird es für alle anderen Listenbesucher*innen unsichtbar. Falls du deine Wahl später ändern oder löschen möchtest kannst du das problemfrei tun. Dazu wird dir eine E-Mail mit einem Änderungslink geschickt.
+            </p>
+          </div>
+        </div>
+        <!-- Things Section Button -->
+        <div class="d-grid gap-2 d-md-block text-center mt-4">
+            <a class="btn btn-xl btn-outline-dark" href="https://cloud.gespensterfisch.de/apps/polls/s/ZFSQZj7Z">
+                <i class="fas fa-list me-2"></i>
+                Mario
+            </a>
+            <a class="btn btn-xl btn-outline-dark" href="https://cloud.gespensterfisch.de/apps/polls/s/Y53JMQVt">
+                <i class="fas fa-list me-2"></i>
+                Katha
+            </a>
+            <a class="btn btn-xl btn-outline-dark" href="https://cloud.gespensterfisch.de/apps/polls/s/KI1dQwI8">
+                <i class="fas fa-list me-2"></i>
+                Luca
+            </a>
+            <a class="btn btn-xl btn-outline-dark" href="https://cloud.gespensterfisch.de/apps/polls/s/KI1dQwI8">
+                <i class="fas fa-list me-2"></i>
+                Tiam
+            </a>
+            <a class="btn btn-xl btn-outline-dark" href="https://cloud.gespensterfisch.de/apps/polls/s/vs7dTTEe">
+                <i class="fas fa-list me-2"></i>
+                Arwyn
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Money Section-->
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+        <!-- Money Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Geld</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Money Section Content-->
+        <div class="row">
+            <div class="col-lg ms-auto">
+              <p class="lead">
+                Falls du keine Lust hast, dich durch komplizierte Listen zu klicken und aus unendlich vielen Dingen eine Auswahl zu treffen, freuen wir uns auch immer über Geld. Der nächste Urlaub kommt bestimmt und die Sparkonten der Kinder freuen sich immer über einen kleinen Booster.
+              </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Time Section-->
+<section class="page-section text-secondary mb-0" id="about">
+    <div class="container">
+        <!-- Time Section Heading-->
+        <h2 class="page-section-heading text-center text-secondary">Zeit</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-dark">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Time Section Content-->
+        <div class="row">
+          <div class="col-lg ms-auto">
+
+            <p class="lead">
+              Vielen Dank, dass du uns eine Freude machen möchtest! In der Regel freuen wir uns besonders über selbstgemachte oder gebrauchte Sachen. Für den Fall, dass du einmal nichts in unseren Wunschlisten findest, freuen wir uns jedoch auch über geschenkte Zeit.
+            </p>
+            <p class="lead">
+              Viele Tolle Ideen dazu findet man auf der Webseite <a href="https://www.zeit-statt-zeug.de/de/">www.zeit-statt-zeug.de</a> .
+            </p>
+          </div>
+        </div>
+    </div>
+</section>
+
+
   </body>
 
 
